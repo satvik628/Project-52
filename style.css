@@ -1,0 +1,55 @@
+h1{
+
+color: #bbccdd ;
+background-color: black;
+margin-left: 180px;
+    
+}
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.grid img{
+
+
+border : 2px solid black;
+border-radius:50px;
+
+}
+.origami{
+
+border-radius: 20px;
+background-color: skyblue;
+
+width:310px;
+font-family: fantasy;
+}
+.laboratory p {
+    font-size: 30px;
+      position:absolute;
+      top :50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      opacity:0;
+    }
+    .laboratory:hover p {
+       opacity:1;
+       color: red;
+      }
+    
+      .laboratory:hover img{
+          opacity:0.33;
+          width:320px;
+          height: 320px ;
+      }
+    .laboratory  {
+        position:relative;
+      }
